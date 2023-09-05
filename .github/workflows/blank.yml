@@ -6,7 +6,7 @@ name: Java CI with Maven
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '45 7,6 * * *'
+    - cron:  '58 7,6 * * *'
 
 jobs:
   build:
@@ -39,5 +39,5 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-         github_token: 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
+         github_token: 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
          branch: main
