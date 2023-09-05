@@ -37,7 +37,7 @@ jobs:
          git add zh-cn/*
          git commit -m "update readme.md"
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses:  ad-m/github-push-action@master
       with:
-         github_token: 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
+         github_token: ${{ secrets.TOKEN }}
          branch: main
