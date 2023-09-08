@@ -1,0 +1,35 @@
+name: Update Blog Post
+
+on:
+  push:
+    paths:
+      - 'readme.md' # Specify the path to your readme.md file
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Git
+      run: |
+        git config --global user.email "378600950@qq.com"
+        git config --global user.name "qqhsx"
+
+    - name: Get latest readme.md content
+      id: get-readme-content
+      run: |
+        readme_content=$(cat readme.md)
+        echo "::set-output name=readme_content::$readme_content"
+
+    - name: Update /source/_posts/Bing壁纸每日更新.md in blog-source
+      run: |
+        echo "${{ steps.get-readme-content.outputs.readme_content }}" > /tmp/Bing壁纸每日更新.md
+        git clone https://github.com/qqhsx/blog-source.git
+        cd blog-source
+        mv /tmp/Bing壁纸每日更新.md source/_posts/
+        git add source/_posts/Bing壁纸每日更新.md
+        git commit -m "Update Bing壁纸每日更新.md"
+        git push origin master
