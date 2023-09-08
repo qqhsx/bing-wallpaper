@@ -36,15 +36,6 @@ jobs:
          git add docs/*
          git add zh-cn/*
          git commit -m "update readme.md"
-         git push     
-         # Add the following lines to push to the other repository
-         git remote add blog-source https://github.com/qqhsx/blog-source.git
-         git fetch blog-source
-         git checkout -b update-blog-source
-         cp README.md source/_posts/Bing\ 壁纸\ 每日更新.md
-         git add source/_posts/Bing\ 壁纸\ 每日更新.md
-         git commit -m "Update blog source"
-         git push -u blog-source update-blog-source
     - name: Push changes
       uses:  ad-m/github-push-action@master
       with:
