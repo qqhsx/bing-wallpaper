@@ -1,7 +1,11 @@
 ## Bing Wallpaper
+2023-09-08 | [Camels in the desert, United Arab Emirates (© Amazing Aerial Premium/Shutterstock)](https://cn.bing.com/th?id=OHR.CamelsAbove_EN-US3904666620_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4) 
+
 2023-09-07 | [Old Venetian harbor, Rethymno, Crete Island, Greece (© Gatsi/Getty Images)](https://cn.bing.com/th?id=OHR.CreteHarbor_EN-US3759550362_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4) 
 
 2023-09-06 | [Mount Segla, Senja Island, Troms og Finnmark, Norway (© imageBROKER/Moritz Wolf/Getty Images)](https://cn.bing.com/th?id=OHR.MountSegla_EN-US3570750349_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4) 
+
+2023-09-05 | [Construction workers on scaffolding (© Bits and Splits/Shutterstock)](https://cn.bing.com/th?id=OHR.LaborDayWorkers_EN-US3448430770_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4) 
 
 2023-09-04 | [Aerial view of Manhattan, New York City (© Wojtek Zagorski/Getty Images)](https://cn.bing.com/th?id=OHR.ManhattanAerial_EN-US3290111355_UHD.jpg&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4) 
 
