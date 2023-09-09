@@ -2,6 +2,9 @@ name: Update Blog Post
 
 on:
   push:
+    branches:
+    - main
+    #2020年10月后github新建仓库默认分支改为main，注意更改
     paths:
       - 'readme.md' # Specify the path to your readme.md file
 
